@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ERAUTO MEDIA - Automotive Photography</title>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/js/all.min.js" defer></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#home" class="logo" aria-label="ERAUTO MEDIA home">
+        <span>ERAUTO</span><span class="accent">MEDIA</span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#services">Services</a></li>
+          <li><a class="nav__link" href="#gallery">Gallery</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero__content">
+        <h1 class="hero__title sr">Capturing Automotive<br />Excellence Through<br />The Lens</h1>
+        <p class="hero__subtitle sr">
+          Professional automotive photography services that showcase the beauty, power and elegance of your vehicle through stunning visual storytelling.
+        </p>
+        <a href="#contact" class="btn btn--primary sr">BOOK A SESSION</a>
+      </div>
+      <!-- Background image set in CSS; swap URL in style.css -->
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title sr">Our Services</h2>
+          <div class="section__underline sr"></div>
+        </div>
+        <p class="section__intro sr">
+          Specialized automotive photography services tailored to showcase your vehicle in the best possible light, whether it's a classic car, modern supercar or racing machine.
+        </p>
+
+        <div class="grid services">
+          <article class="card sr">
+            <i class="fa-solid fa-camera card__icon"></i>
+            <h3 class="card__title">Studio Photography</h3>
+            <p class="card__text">Professional controlled lighting in a studio environment to highlight every detail and curve of your vehicle with precision and clarity.</p>
+          </article>
+
+          <article class="card sr">
+            <i class="fa-solid fa-location-dot card__icon"></i>
+            <h3 class="card__title">Location Shoots</h3>
+            <p class="card__text">Dramatic outdoor settings that complement your vehicle's character, from urban environments to scenic landscapes.</p>
+          </article>
+
+          <article class="card sr">
+            <i class="fa-solid fa-forward-fast card__icon"></i>
+            <h3 class="card__title">Action Photography</h3>
+            <p class="card__text">Dynamic shots that capture your vehicle in motion, showcasing performance and creating a sense of speed and excitement.</p>
+          </article>
+
+          <article class="card sr">
+            <i class="fa-solid fa-images card__icon"></i>
+            <h3 class="card__title">Commercial & Advertising</h3>
+            <p class="card__text">High-impact imagery for dealerships, manufacturers and automotive brands that sell vehicles and build brand identity.</p>
+          </article>
+
+          <article class="card sr">
+            <i class="fa-solid fa-paperclip card__icon"></i>
+            <h3 class="card__title">Classic & Vintage</h3>
+            <p class="card__text">Specialized photography for classic and vintage automobiles that respects their history while showcasing their timeless appeal.</p>
+          </article>
+
+          <article class="card sr">
+            <i class="fa-solid fa-wand-magic-sparkles card__icon"></i>
+            <h3 class="card__title">Post-Production</h3>
+            <p class="card__text">Professional retouching and editing to perfect every image, enhancing colours, removing imperfections and creating the final look.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title sr">Portfolio Gallery</h2>
+          <div class="section__underline sr"></div>
+        </div>
+        <p class="section__intro sr">
+          A showcase of our finest automotive photography work across various styles, settings, and vehicle types.
+        </p>
+
+        <div class="gallery">
+          <div class="gallery__col">
+            <img class="gallery__img sr" src="images/gt3.png" alt="Placeholder image 1" />
+            <img class="gallery__img sr" src="images/imge2.png" alt="Placeholder image 2" />
+          </div>
+          <div class="gallery__col">
+            <img class="gallery__img sr" src="images/imge3.png" alt="Placeholder image 3" />
+            <img class="gallery__img sr" src="images/imge4.png" alt="Placeholder image 4" />
+          </div>
+          <div class="gallery__col">
+            <img class="gallery__img sr" src="images/imge5.png" alt="Placeholder image 3" />
+            <img class="gallery__img sr" src="images/imge6.png" alt="Placeholder image 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container about">
+        <div class="about__image sr">
+          <img src="images/gt3rssmall.png" alt="About placeholder image" />
+        </div>
+        <div class="about__text">
+          <div class="section__head">
+            <h2 class="section__title sr">About The Photographer</h2>
+            <div class="section__underline sr"></div>
+          </div>
+          <p class="sr">
+            With over 2 years of specialized experience in automotive photography, I've developed a unique approach that combines technical precision with artistic vision. My work has been featured in leading automotive publications and advertising campaigns worldwide.
+          </p>
+          <p class="sr">
+            My passion for both photography and automobiles drives me to capture each vehicle's unique character and beauty. Whether it's a new classic car, modern supercar, or a custom build, I bring the same level of dedication and expertise to every shoot.
+          </p>
+          <a href="#contact" class="btn btn--primary sr">GET IN TOUCH</a>
+
+          <div class="stats">
+            <div class="stats__item sr"><span>2+</span><small>Years Experience</small></div>
+            <div class="stats__item sr"><span>10+</span><small>Projects Completed</small></div>
+            <div class="stats__item sr"><span>3+</span><small>Brand Collaborations</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact">
+        <div class="contact__info">
+          <div class="section__head">
+            <h2 class="section__title sr">Contact Us</h2>
+            <div class="section__underline sr"></div>
+          </div>
+          <p class="sr">Ready to showcase your vehicle through professional photography? Get in touch to discuss your project and book a session.</p>
+
+          <ul class="contact__list">
+            <li class="sr"><i class="fa-solid fa-location-dot"></i> Derby, England</li>
+            <li class="sr"><i class="fa-solid fa-envelope"></i> erauto@pixelaudio.co.uk</li>
+            <li class="sr"><i class="fa-solid fa-phone"></i> 07306 319040</li>
+            <li class="sr"><i class="fa-solid fa-clock"></i> Monday - Friday: 9am - 6pm • Weekends by appointment</li>
+          </ul>
+        </div>
+
+        <div class="contact__form">
+          <!-- Replace `your-form-id` with your Formspree ID -->
+          <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST" novalidate>
+            <input class="input sr" type="text" name="name" placeholder="Your Name" required />
+            <input class="input sr" type="email" name="email" placeholder="Your Email" required />
+            <input class="input sr" type="text" name="subject" placeholder="Subject" />
+            <textarea class="input sr" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <!-- Honeypot (spam protection) -->
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+            <button class="btn btn--primary sr" type="submit" id="form-submit">SEND MESSAGE</button>
+            <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#home" class="logo">
+        <span>ERAUTO</span><span class="accent">MEDIA</span>
+      </a>
+      <p>© 2024 ERAUTOMEDIA. All rights reserved. Professional Automotive Photography.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+</body>
+</html>
