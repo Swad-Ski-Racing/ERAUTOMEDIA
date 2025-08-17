@@ -40,6 +40,18 @@
     cursor:pointer;
     transition:background .2s ease, transform .15s ease;
   }
+
+/* Hero "BOOK A SESSION" button */
+.hero .btn {
+    display: inline-flex;      /* shrink to text size */
+    align-items: center;       /* keep text centered */
+    justify-content: left;
+    padding: 14px 10px;        /* 10px left/right from text */
+    width: 160px;               /* ensure no stretching */
+    min-width: unset;          /* override defaults if any */
+  }
+  
+  
   .btn:hover{ background:var(--accent-600); }
   .btn:active{ transform:translateY(1px); }
   
